@@ -26,6 +26,6 @@ variable "is_public_ip" {
   description = "Specify true to indicate that instances launched into the subnet should be assigned a public IP addres"
   type        = bool
   nullable    = false
-  default = false
+  default     = false
 }
 
